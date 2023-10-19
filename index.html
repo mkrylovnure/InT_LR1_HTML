@@ -1,99 +1,158 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>LR1</title>
-  </head>
-  <body>
-    <div>
-      <h2>Варіант 3, Крилов М.В., КІУКІу-22-1</h2>
-    </div>
-    <div>
-      <h3>Оформлений текст</h3>
-      <p>
-        <b
-          ><i>E=mc<sup>2</sup></i></b
-        >, where <b>E</b> - energy of the object, <b>m</b> - it's mass,
-        <b>c</b> - speed of light in vacuum, equals to 299 792 458 <i>m/s</i>
-      </p>
-    </div>
-    <div>
-      <h3>Список</h3>
-      <select>
-        <option>Костянтин Попов</option>
-        <option>Герман Готра</option>
-        <option>Михайло Крилов</option>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LR1</title>
+</head>
+
+<body>
+  <div>
+    <h2>Варіант 4, Крилов М.В., КІУКІу-22-1</h2>
+  </div>
+  <div>
+    <h3>Оформлений текст</h3>
+    <p>
+      P<sub>n</sub>&equals;1<b>&#x2022;</b>2<b>&#x2022;</b>3<b>&#x2022;</b>...<b>&#x2022;</b>(n-2)<b>&#x2022;</b>(n-1)<b>&#x2022;</b>n
+    </p>
+  </div>
+  <div>
+    <h3>Список</h3>
+    <dl>
+      <dt>InT</dt>
+      <dd>Internet-технології</dd>
+      <dt>МодС</dt>
+      <dd>Моделювання систем</dd>
+      <dt>АК</dt>
+      <dd>Архітектура комп'ютерів</dd>
+      <dt>СПро</dt>
+      <dd>Системне програмування</dd>
+    </dl>
+  </div>
+  <div>
+    <h3>Таблиця</h3>
+    <table border>
+      <tr>
+        <th rowspan="2" align="">Періоди</th>
+        <th colspan="10">ГРУПИ ЕЛЕМЕНТІВ</th>
+      </tr>
+      <tr>
+        <th>I</th>
+        <th>II</th>
+        <th>III</th>
+        <th>IV</th>
+        <th>V</th>
+        <th>VI</th>
+        <th>VII</th>
+        <th colspan="3">VIII</th>
+      </tr>
+      <tr>
+        <th>1</th>
+        <th>H</th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th>(H)</th>
+        <th>He</th>
+        <th width="20"></th>
+        <th width="20"></th>
+      </tr>
+      <tr>
+        <th>2</th>
+        <th>Li</th>
+        <th>Be</th>
+        <th>B</th>
+        <th>C</th>
+        <th>N</th>
+        <th>O</th>
+        <th>F</th>
+        <th>Ne</th>
+        <th></th>
+        <th></th>
+      </tr>
+      <tr>
+        <th>3</th>
+        <th>Na</th>
+        <th>Mg</th>
+        <th>Al</th>
+        <th>Si</th>
+        <th>P</th>
+        <th>S</th>
+        <th>Cl</th>
+        <th>Ar</th>
+        <th></th>
+        <th></th>
+      </tr>
+      <tr>
+        <th rowspan="2">4</th>
+        <th>K</th>
+        <th>Ca</th>
+        <th>Sc</th>
+        <th>Ti</th>
+        <th>V</th>
+        <th>Cr</th>
+        <th>Mn</th>
+        <th>Fe</th>
+        <th>Co</th>
+        <th>Ni</th>
+      </tr>
+      <tr>
+        <th>Cu</th>
+        <th>Zn</th>
+        <th>Ga</th>
+        <th>Ge</th>
+        <th>As</th>
+        <th>Se</th>
+        <th>Br</th>
+        <th>Kr</th>
+        <th></th>
+        <th></th>
+      </tr>
+    </table>
+  </div>
+  <div>
+    <h3>Форма с керуючими елементами</h3>
+    <form>
+      <label for="cpu">CPU manufacturer</label><br />
+      <select name="cpu" id="cpu">
+        <option value="amd">AMD</option>
+        <option value="intel">Intel</option>
       </select>
-    </div>
-    <div>
-      <h3>Таблиця</h3>
-      <table border>
-        <thead>
-          <tr>
-            <th colspan="2">Хроніки Дюни (цикл)</th>
-          </tr>
-        </thead>
-        <tr>
-          <th>Назва книги</th>
-          <th>Кіл-ть сторінок</th>
-        </tr>
-        <tr>
-          <td>Дюна</td>
-          <td>198c.</td>
-        </tr>
-        <tr>
-          <td>Месія Дюни</td>
-          <td>67c.</td>
-        </tr>
-        <tr>
-          <td>Діти Люни</td>
-          <td>134c.</td>
-        </tr>
-        <tr>
-          <td>Бог-Імператор Дюни</td>
-          <td>132c.</td>
-        </tr>
-        <tr>
-          <td>Єретеки Дюни</td>
-          <td>151c.</td>
-        </tr>
-        <tr>
-          <td>Капітула Дюни</td>
-          <td>151c.</td>
-        </tr>
-      </table>
-    </div>
-    <div>
-      <h3>Форма с керуючими елементами</h3>
-      <form>
-        <label for="fname">First name:</label><br />
-        <input type="text" id="fname" name="fname" />
-        <br />
-        <label for="lname">Last name:</label>
-        <br />
-        <input type="text" id="lname" name="lname" />
-        <br />
-        <label for="email">Email:</label>
-        <br />
-        <input type="email" id="email" name="email" />
-        <br />
-        <label for="group">Academic group:</label>
-        <br />
-        <input type="text" id="group" name="group" />
-        <br />
-        <label for="department">Department:</label>
-        <br />
-        <input type="text" id="department" name="department" />
-        <br /><br />
-        <input type="submit" value="Submit" />
-      </form>
-    </div>
-    <div>
-      <h3>Посилання та зображення</h3>
-      <a href="another_page.html#fourth_section"
-        >Link to the fourth section of another page</a
-      >
-    </div>
-  </body>
+      <br />
+      <label for="disk">Disk type</label><br />
+      <select name="disk" id="disk">
+        <option value="amd">SSD</option>
+        <option value="intel">HDD</option>
+      </select>
+      <br />
+      <label for="ram">Amount of RAM</label>
+      <br />
+      <input type="text" id="ram" name="ram" />
+      <br />
+      <label for="vram">Amount of VRAM</label>
+      <br />
+      <input type="text" id="vram" name="vram" />
+      <br /><br />
+      <input type="submit" value="Submit" />
+    </form>
+  </div>
+  <div>
+    <h3>Посилання та зображення</h3>
+    <p>Натисніть HTML, щоб перейти на сайт університету</p>
+    <p>Натисніть CSS, щоб перейти на cist.nure</p>
+    <p>Натисніть JS, щоб перейти на рейтингові списки</p>
+    <img src="img.jpg" usemap="#image-map">
+    <map name="image-map">
+      <area target="_blank" alt="site" title="site" href="https://nure.ua/" coords="64,72,227,279" shape="rect">
+      <area target="_blank" alt="cist" title="cist" href="https://cist.nure.ua/ias/app/tt/f?p=778:2:2250221552143703#"
+        coords="247,76,401,283" shape="rect">
+      <area target="_blank" alt="top" title="top" href="https://nure.ua/studentam/stipendialniy-reyting"
+        coords="424,75,573,281" shape="rect">
+    </map>
+  </div>
+</body>
+
 </html>
